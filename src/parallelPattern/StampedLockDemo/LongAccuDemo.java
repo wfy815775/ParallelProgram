@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.concurrent.atomic.LongAccumulator;
 
 public class LongAccuDemo {
-    public static void main(String[] args) {
+    public static void main(String[] args) {;
         LongAccumulator accumulator = new LongAccumulator(Long::max ,Long.MIN_VALUE);
         Thread[] ts = new Thread[1000];
 
